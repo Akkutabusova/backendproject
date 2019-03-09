@@ -1,0 +1,178 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #a3a3c2;
+}
+header{
+	width: 100%;
+	height: 40px;
+	background-color: rgba(0,0,0,0.8);
+}
+nav{
+	display: flex;
+}
+nav img{
+	position: absolute;
+	top: -5px;
+	left: 125px;
+	width: 50px;
+}
+.navigation{
+	margin-left: 20%;
+}
+.navigation li{
+	list-style: none;
+	display: inline-flex;
+}
+.navigation li img{
+	position: relative;
+	width: 3px;
+	height: 3px;	
+}
+.navigation li a{
+	font-family: 'Sarabun', sans-serif;
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	margin:13px 30px 0 30px;
+}
+.navigation li a:hover{
+	transition:0.1s; 
+	color: lightgrey;
+}
+#login{
+	color: lightgrey;
+
+}
+.main-section h3{
+	font-size: 400px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	background: url(main.jpg) 50% 50%;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
+.main-word{
+	font-family: 'Sarabun', sans-serif;
+	margin: 25px 0 0 570px;
+}
+
+.main-word h1{
+	font-size: 200px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 20px;
+	position: absolute;
+	top: 21%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 50;
+	background: url(main.jpg) 50% 50%;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
+.main-word h2{
+	font-size: 200px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 20px;
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -70%);
+	margin: 50;
+	background: url(main.jpg) 50% 50%;
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
+}
+.main-section{
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	background: #333;
+}
+#cart{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	left: 85%;
+}
+.main-iphone{
+	margin:17% 10% 0 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.main-iphone img{
+	padding:30px 0 0 80px;
+	width: 150px;
+	height: 150px;
+}
+
+.main-iphone div{
+	border: 1px solid lightgrey;
+	width: 320px;
+	background-color: #ffffff;
+}
+.main-iphone div h2{
+	color: #231F20;
+	font-size: 17px;
+	font-weight: 600;
+	margin:30px 0 15px 20px;
+}
+.main-iphone div p{
+	color: #898989;
+	font-size: 13px;
+	font-weight: 300;
+	margin:0px 0 15px 20px;
+}
+.main-iphone div a img{
+	padding-left: 280px;
+	margin-top: -50px;
+	width: 30px;
+	height: 30px;
+} 
+.main-iphone div:hover{
+	border: 1.5px solid #337ab7;
+}
+#price{
+	color: #231F20;
+	font-weight: bold;
+	font-size: 20px;
+}
+footer{
+	background-color: rgba(0,0,0,0.8);
+	margin-top: 100px;
+	color: white;
+	display: grid;
+	grid-template-columns: 30% 40% 20%;
+}
+footer div{
+	margin-left: 100px;
+}
+.footer-1 p{
+	padding: 50px 0 50px 0;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 13px;
+}
+.footer-2 h3{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 15px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.footer-3 p{
+	padding: 50px 0 50px 50px;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 13px;
+} 
+
